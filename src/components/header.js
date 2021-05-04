@@ -2,6 +2,8 @@ import React from "react"
 
 import { css } from "@emotion/react"
 
+import Navegacion from "./nav"
+
 function Header() {
   return (
     <header
@@ -30,6 +32,8 @@ function Header() {
         >
           Hotel Gatsby
         </h1>
+
+        <Navegacion />
       </div>
     </header>
   )
