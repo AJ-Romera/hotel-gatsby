@@ -55,7 +55,10 @@ function ContenidoInicio() {
       </h2>
       <TextoInicio>
         <p>{contenido}</p>
-        <Image fluid={imagen.fluid} />
+        <Image
+          fluid={imagen.fluid}
+          alt="Hotel con piscina de ensueño, rodeada de palmeras y tumbonas"
+        />
       </TextoInicio>
     </>
   )
