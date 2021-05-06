@@ -12,6 +12,12 @@ function Layout(props) {
         styles={css`
           html {
             font-size: 62.5%;
+            box-sizing: border-box;
+          }
+          *,
+          *:before,
+          *:after {
+            box-sizing: inherit;
           }
           body {
             font-size: 18px;
