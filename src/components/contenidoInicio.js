@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
+import Image from "gatsby-image"
 
 function ContenidoInicio() {
   const informacion = useStaticQuery(graphql`
@@ -18,7 +19,7 @@ function ContenidoInicio() {
     }
   `)
 
-  // console.log(informacion.allDatoCmsPagina.nodes[0])
+  /* console.log(informacion.allDatoCmsPagina.nodes[0].imagen.fluid.src) */
 
   const { titulo, contenido, imagen } = informacion.allDatoCmsPagina.nodes[0]
 
@@ -27,10 +28,7 @@ function ContenidoInicio() {
       <h2>{titulo}</h2>
       <div>
         <p>{contenido}</p>
-        <img
-          src={imagen.fluid.src}
-          alt="Hotel de Lujo con Palmeras, piscinas de ensueño, situado en el Caribe"
-        />
+        <Image fluid={imagen.fluid} />
       </div>
     </>
   )
