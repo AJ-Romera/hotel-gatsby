@@ -26,7 +26,7 @@ const IndexPage = () => {
       </h2>
       <ul>
         {habitaciones.map(habitacion => (
-          <HabitacionPreview />
+          <HabitacionPreview key={habitacion.id} habitacion={habitacion} />
         ))}
       </ul>
     </Layout>
