@@ -17,7 +17,8 @@ function Footer() {
     <>
       <footer
         css={css`
-          background-color: #222;
+          background-color: rgba(44, 62, 80);
+          margin-top: 5rem;
           padding: 1rem;
         `}
       >
