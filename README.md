@@ -53,8 +53,8 @@ _Iniciará el proyecto en modo desarrollador en tu navegador. Se abrirá automá
 
 [http://localhost:8000/](http://localhost:8000/)
 
-_La página se recargará si haces y guardas cambios en el código. También verás errores en la consola (si los hubiese)_
+_La página se recargará si haces y guardas cambios en el código. Además verás errores en la consola (si los hubiese)_
 
-_También puedes usar graphql en tu proyecto, en modo desarrolo, desde:_
+_También puedes usar graphql en tu proyecto, en modo desarrollo, desde:_
 
 [http://localhost:8000/\_\_\_graphql](http://localhost:8000/___graphql)
